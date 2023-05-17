@@ -1,0 +1,41 @@
+.nickname {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(241, 47, 225);
+	border-radius: 50%;
+	position: absolute;
+}
+
+.nickname::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 137px;
+	height: 137px;
+	background-color: rgb(153, 152, 155);
+	border-radius: 50%;
+	border: 3px solid white;
+	top: 3.5px;
+	left: 3.5px;
+}
+
+.nickname::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	border-radius: 50%;
+	border: 2px solid white;
+	top: 120px;
+	left: 55px;
+}
+
+p {
+	display: inline-block;
+	margin-top: 165px;
+	margin-left: 40px;
+	font-weight: 900;
+	color: rgb(71, 71, 70);
+}
